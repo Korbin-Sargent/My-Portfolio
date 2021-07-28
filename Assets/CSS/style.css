@@ -4,7 +4,9 @@
   margin: 0;
 }
 body {
-  background-color: #333;
+  background-image: url(../Images/florian-olivo-JNz9bQD3Oio-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
@@ -13,13 +15,14 @@ body {
     "Lucida Sans", Arial, sans-serif;
   background-color: #4f5355;
   color: #ffffff;
+  margin-bottom: 100px;
 }
 
 .header h1 {
   display: inline-block;
   font-size: 48px;
   color: #fafcf9;
-  background-color: rgb(83, 144, 170);
+  /* background-color: rgb(83, 144, 170); */
   width: 400px;
   padding-left: 50px;
   justify-content: end;
@@ -45,79 +48,84 @@ body {
 .header nav ul li a {
 }
 
-.coding {
+/* .coding {
   height: 200px;
   width: 100%;
   margin-bottom: 25px;
   background-image: url("../Images/florian-olivo-JNz9bQD3Oio-unsplash.jpg");
   background-size: cover;
   background-position: center;
-}
+} */
 
 .float-left {
   float: left;
   margin-right: 25px;
-  height: 200px;
+  height: 150px;
 }
 
 .about-me {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   padding: 11px;
-  height: 300px;
+  height: 250px;
   margin-left: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
+  background-color: transparent;
   color: #ffffff;
 }
 
 .about-me h2 {
+  display: flex;
   color: #ffffff;
+  justify-content: center;
+  font-size: 40px;
 }
 
 .work {
+  display: flex;
   padding-top: 15px;
   margin-right: 20px;
-  float: left;
+  float: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 20px;
+  font-size: 40px;
+  color: #ffffff;
+  justify-content: center;
 }
 
 .grid-container {
   display: grid;
   grid-template-rows: auto auto auto;
-  background-color: #2196f3;
+  background-color: transparent;
   grid-gap: 10px;
   padding: 10px;
 }
 
 .large-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  background: url(../Images/calculator.jpg);
+  background-image: url(../Images/calculator.jpg);
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   height: 500px;
 }
 
 .small-box1 {
   background-color: rgba(255, 255, 255, 0.8);
-  background: url(../Images/videogame.jpg);
+  background-image: url(../Images/videogame.jpg);
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   height: 200px;
 }
 .small-box2 {
   background-color: rgba(255, 255, 255, 0.8);
-  background: url(../Images/puzzle.jpg);
+  background-image: url(../Images/puzzle.jpg);
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 20px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   height: 200px;
 }
@@ -128,6 +136,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
   background-color: #4f5355;
   color: #ffffff;
+  margin-top: 100px;
 }
 
 .footer h4 {
