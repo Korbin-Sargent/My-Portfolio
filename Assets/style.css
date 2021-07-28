@@ -38,3 +38,43 @@
   display: inline-block;
   margin-left: 25px;
 }
+
+.header nav ul li a {
+}
+
+.footer {
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #4f5355;
+  color: #ffffff;
+}
+
+.footer h4 {
+  display: inline-block;
+  font-size: 48px;
+  color: #fafcf9;
+  width: 400px;
+  padding-left: 50px;
+  justify-content: end;
+}
+
+.footer nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.footer nav ul {
+  list-style-type: none;
+}
+
+.footer nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.footer nav ul li a {
+}
