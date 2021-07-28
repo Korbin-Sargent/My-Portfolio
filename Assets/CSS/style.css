@@ -80,6 +80,10 @@ body {
   font-size: 40px;
 }
 
+.about-me p {
+  font-size: 25px;
+}
+
 .work {
   display: flex;
   padding-top: 15px;
@@ -100,34 +104,57 @@ body {
 }
 
 .large-box {
-  background-image: url(../Images/calculator.jpg);
-  background-size: cover;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 40px;
+  position: relative;
   text-align: center;
+  color: white;
+}
+
+.calculator-image {
+  width: 100%;
   height: 500px;
 }
 
-.small-box1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url(../Images/videogame.jpg);
-  background-size: cover;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-  height: 200px;
+.calculator {
+  position: Absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 25px;
 }
-.small-box2 {
-  background-color: rgba(255, 255, 255, 0.8);
-  background-image: url(../Images/puzzle.jpg);
-  background-size: cover;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 40px;
+
+.small-box1 {
+  position: relative;
   text-align: center;
-  height: 200px;
+  color: white;
+}
+
+.videogame-image {
+  width: 100%;
+  height: 300px;
+}
+
+.video-game {
+  position: Absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 25px;
+}
+
+.small-box2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.puzzle-image {
+  width: 100%;
+  height: 300px;
+}
+
+.puzzle {
+  position: Absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 25px;
 }
 
 .footer {
