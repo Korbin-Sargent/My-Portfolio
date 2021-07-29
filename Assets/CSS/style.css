@@ -216,13 +216,7 @@ body {
   color: var(--offwhite);
 }
 
-/* Adjust h1 color at screen width 600px */
-
-@media screen and (max-width: 600px) {
-  .header h1 {
-    color: green;
-  }
-}
+/* Media queries to adjusting contact me section at given screen size */
 
 @media screen and (max-width: 650px) {
   #contact-me-section {
