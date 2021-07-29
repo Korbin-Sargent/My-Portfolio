@@ -21,3 +21,5 @@ Below is a guide of how I built My Portfolio webpage. I'm an aspiring junior dev
 - Added comments to help identify the what and why for specific elements and their corresponding styling in both the index.html file and the style.css file.
 
 - Finalized webpage by checking over code and reducing redunancies.
+
+https://korbin-sargent.github.io/My-Portfolio/.   Live link here!
