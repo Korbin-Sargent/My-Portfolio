@@ -1,3 +1,5 @@
+/* reducing redundancy with CSS car() to quickly make changes in future */
+
 :root {
   --offwhite: #fafcf9;
   --gray: #4f5355;
@@ -8,11 +10,22 @@
   padding: 0;
   margin: 0;
 }
+
+/* Set background image to a sweet coding background. Used background-attachment: fixed so my elements would scroll on stationary background */
+
+html,
 body {
   background-image: url(../Images/florian-olivo-JNz9bQD3Oio-unsplash.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
+
+/* Header styling  */
 
 .header {
   padding: 0px;
@@ -59,6 +72,8 @@ body {
   height: 150px;
 }
 
+/* Used background-color: transparent so my "about me" section would appear to be floating */
+
 .about-me {
   margin-bottom: 50px;
   padding: 11px;
@@ -91,6 +106,8 @@ body {
   justify-content: center;
 }
 
+/* Created my grid container to organize clickable application images */
+
 .grid-container {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -98,6 +115,7 @@ body {
   grid-gap: 10px;
   padding: 10px;
 }
+/* Styling my grid items  */
 
 .large-box {
   position: relative;
@@ -160,6 +178,7 @@ body {
   background-color: #4f5355;
   color: var(--offwhite);
   margin-top: 100px;
+  viewport-fit: 0px;
 }
 
 .footer h4 {
