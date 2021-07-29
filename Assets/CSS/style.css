@@ -1,3 +1,8 @@
+:root {
+  --offwhite: #fafcf9;
+  --gray: #4f5355;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -13,16 +18,15 @@ body {
   padding: 0px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  background-color: #4f5355;
-  color: #ffffff;
+  background-color: var(--gray);
+  color: var(--offwhite);
   margin-bottom: 100px;
 }
 
 .header h1 {
   display: inline-block;
   font-size: 48px;
-  color: #fafcf9;
-  /* background-color: rgb(83, 144, 170); */
+  color: var(--offwhite);
   width: 400px;
   padding-left: 50px;
   justify-content: end;
@@ -46,16 +50,8 @@ body {
 }
 
 .header nav ul li a {
+  color: var(--offwhite);
 }
-
-/* .coding {
-  height: 200px;
-  width: 100%;
-  margin-bottom: 25px;
-  background-image: url("../Images/florian-olivo-JNz9bQD3Oio-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-} */
 
 .float-left {
   float: left;
@@ -70,12 +66,12 @@ body {
   margin-left: 0px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: transparent;
-  color: #ffffff;
+  color: var(--offwhite);
 }
 
 .about-me h2 {
   display: flex;
-  color: #ffffff;
+  color: var(--offwhite);
   justify-content: center;
   font-size: 40px;
 }
@@ -91,7 +87,7 @@ body {
   float: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 40px;
-  color: #ffffff;
+  color: var(--offwhite);
   justify-content: center;
 }
 
@@ -106,7 +102,7 @@ body {
 .large-box {
   position: relative;
   text-align: center;
-  color: white;
+  color: var(--offwhite);
 }
 
 .calculator-image {
@@ -142,7 +138,7 @@ body {
 .small-box2 {
   position: relative;
   text-align: center;
-  color: white;
+  color: var(--offwhite);
 }
 
 .puzzle-image {
@@ -162,14 +158,14 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   background-color: #4f5355;
-  color: #ffffff;
+  color: var(--offwhite);
   margin-top: 100px;
 }
 
 .footer h4 {
   display: inline-block;
   font-size: 48px;
-  color: #fafcf9;
+  color: var(--offwhite);
   width: 400px;
   padding-left: 50px;
   justify-content: end;
@@ -193,4 +189,5 @@ body {
 }
 
 .footer nav ul li a {
+  color: var(--offwhite);
 }
