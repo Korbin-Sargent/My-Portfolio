@@ -22,7 +22,7 @@ Below is a guide of how I built My Portfolio webpage. I'm an aspiring junior dev
 
 - Finalized webpage by checking over code and reducing redunancies.
 
-https://korbin-sargent.github.io/My-Portfolio/.   Live link here!
+https://korbin-sargent.github.io/My-Portfolio/. Live link here!
 
 ![screenshot1](https://user-images.githubusercontent.com/87394831/127434870-cacb4496-0e91-4e09-8496-65fbdb90b4f2.png)
 ![screenshot2](https://user-images.githubusercontent.com/87394831/127434885-a4374f07-f213-4317-9768-f7f9d2f37cbd.png)

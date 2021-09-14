@@ -120,7 +120,7 @@ body {
 .large-box {
   position: relative;
   text-align: center;
-  color: var(--offwhite);
+  color: black;
 }
 
 .calculator-image {
@@ -138,7 +138,7 @@ body {
 .small-box1 {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
 }
 
 .videogame-image {
@@ -156,7 +156,7 @@ body {
 .small-box2 {
   position: relative;
   text-align: center;
-  color: var(--offwhite);
+  color: white;
 }
 
 .puzzle-image {
@@ -214,6 +214,27 @@ body {
 
 .footer nav ul li a {
   color: var(--offwhite);
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* Media queries to adjusting contact me section at given screen size */
