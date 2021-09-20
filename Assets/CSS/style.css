@@ -120,7 +120,9 @@ body {
 .large-box {
   position: relative;
   text-align: center;
-  color: black;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .calculator-image {
@@ -138,7 +140,9 @@ body {
 .small-box1 {
   position: relative;
   text-align: center;
-  color: black;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .videogame-image {
@@ -156,7 +160,9 @@ body {
 .small-box2 {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .puzzle-image {
