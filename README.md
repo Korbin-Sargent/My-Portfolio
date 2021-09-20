@@ -24,5 +24,5 @@ Below is a guide of how I built My Portfolio webpage. I'm an aspiring junior dev
 
 https://korbin-sargent.github.io/My-Portfolio/. Live link here!
 
-![Screen Shot 2021-09-15 at 1 36 36 PM](https://user-images.githubusercontent.com/87394831/133498240-a0322c07-073d-42aa-aa42-4a9c319b95b4.png)
+![Screen Shot 2021-09-20 at 12 20 50 AM](https://user-images.githubusercontent.com/87394831/133963120-ff533357-7b78-4396-a304-1e5986995b96.png)
 
